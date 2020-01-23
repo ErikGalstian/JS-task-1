@@ -32,7 +32,7 @@ for (i = 0; i < startList.length; i++) {
 //Function that checks age of every person and removes old people
 
 function checkAge() {
-  setInterval(function() {
+  setInterval(() => {
     for (i = 0; i < personList.length; i++) {
       if (personList[i].age >= 40) {
         console.log(personList[i].name + ' is dead!');
